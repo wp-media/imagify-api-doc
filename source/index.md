@@ -18,7 +18,7 @@ search: true
 
 # Introduction
 
-Welcome to Imagify API! You can use the API to optimize and resize images. 
+Welcome to Imagify API! You can use the API to optimize and resize your images. 
 # Authentication
 
 > To authorize, use this code:
