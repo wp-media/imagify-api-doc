@@ -81,7 +81,7 @@ Be sure to add token before your api key.
 
 # Upload
 
-## Upload and Optimize a image
+## Upload and Optimize an image
 
 ```php
 <?php
