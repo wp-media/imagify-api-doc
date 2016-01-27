@@ -19,6 +19,29 @@ search: true
 # Introduction
 
 Welcome to Imagify API! You can use the API to optimize and resize your images. 
+
+# API Liraries
+
+A few libraries are already available to interact with our API. If you write your own library, we would be very happy to link you on this doc. [Please contact us](mailto:contact@imagify.io).
+
+## Python
+
+You can directly install it with pip: 
+
+`pip install imagify-python`
+
+You can also install it by cloning the [Github Repo](https://github.com/wp-media/imagify-python) and doing a : 
+
+`python setup.py install`
+
+## PHP
+
+You can direclty install it with composer:
+
+`composer install wp-media/imagify-php`
+
+You can also install it by cloning the [Github Repo](https://github.com/wp-media/imagify-php)
+
 # Authentication
 
 > To authorize, use this code:
@@ -30,7 +53,7 @@ curl "https://app.imagify.io/api/endpoint/"
 ```
 
 ```python
-from imagify import 'Imagify'
+from imagify import Imagify
 
 imagify = Imagify('my_api_key')
 ```
@@ -109,14 +132,19 @@ This endpoint allow you to upload and optimize an image.
 ### HTTP Request
 
 `POST https://app.imagify.io/api/upload/`
-
+<div class="api-endpoint">
+    <div class="endpoint-data">
+        <i class="label label-post">POST</i>
+        <h6>https://support.wp-rocket.me/api/v1/reseller/orders</h6>
+    </div>
+</div>
 ### Query Parameters
 
 Query parameters should be send as a form-data request
 
 Parameter | Type | Description
 --------- | ------- | -----------
-image | binary data | Your image file
+image | binary data | Your image file <i class="label label-info">required</i>
 data | json | A json with optimization parameters
 
 
