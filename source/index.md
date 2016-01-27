@@ -131,11 +131,10 @@ This endpoint allow you to upload and optimize an image.
 
 ### HTTP Request
 
-`POST https://app.imagify.io/api/upload/`
 <div class="api-endpoint">
     <div class="endpoint-data">
         <i class="label label-post">POST</i>
-        <h6>https://support.wp-rocket.me/api/v1/reseller/orders</h6>
+        <h6>https://app.imagify.io/api/upload/</h6>
     </div>
 </div>
 ### Query Parameters
