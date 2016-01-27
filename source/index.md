@@ -62,7 +62,7 @@ imagify = Imagify('my_api_key')
 <?php
 require('class-imagify.php');
 
-$imagify = new Imagify('my_api_key');
+$imagify = new Imagify\Optimizer('my_api_key');
 ```
 
 
@@ -87,7 +87,7 @@ Be sure to add token before your api key.
 <?php
 require ('class-imagify.php');
 
-$imagify = new Imagify('my_api_key');
+$imagify = new Imagify\Optimizer('my_api_key');
 $param = array(
 	"level"=> 'ultra',
 	"resize"=> array("width"=> 50),
