@@ -60,7 +60,7 @@ imagify = Imagify('my_api_key')
 
 ```php
 <?php
-require('imagify.class.php');
+require('class-imagify.php');
 
 $imagify = new Imagify('my_api_key');
 ```
@@ -85,11 +85,11 @@ Be sure to add token before your api key.
 
 ```php
 <?php
-require ('imagify.class.php');
+require ('class-imagify.php');
 
 $imagify = new Imagify('my_api_key');
 $param = array(
-	"ultra"=> true,
+	"level"=> 'ultra',
 	"resize"=> array("width"=> 50),
 	);
 $image = '1.jpg';	
