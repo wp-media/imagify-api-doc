@@ -87,7 +87,7 @@ imagify.optimize(image, param)
 
 ```shell
 curl "https://app.imagify.io/api/upload/"
-  -H "Authorization: my_api_key"
+  -H "Authorization: my_api_key" -H "Content-Type: multipart/form-data" -F "image=@1.jpg" -F "data={"ultra":true, "resize":{"width":50}}"
 ```
 
 > The above command returns JSON structured like this:
