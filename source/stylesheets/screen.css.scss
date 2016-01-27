@@ -357,7 +357,8 @@ html, body {
 	& > ol,
 	& > aside,
 	& > dl {
-		margin-right: $examples-width!important;
+		width: $content-width;
+		max-width: 100%;
 		padding: 0 $main-padding;
 		box-sizing: border-box;
 		display: block;
@@ -595,7 +596,7 @@ html, body {
 	}
 
 	p, ul, ol, table {
-		margin: 1.5em auto;
+		margin: 1.5em 0;
 	}
 }
 
@@ -629,6 +630,22 @@ html, body {
 }
 
 @media (max-width: $phone-width) {
+	.content {
+		& > h1,
+		& > h2,
+		& > h3,
+		& > h4,
+		& > h5,
+		& > h6,
+		& > p,
+		& > table,
+		& > ul,
+		& > ol,
+		& > aside,
+		& > dl {
+			width: 100%;
+		}
+	}
 	.dark-box {
 		display: none;
 	}
@@ -684,8 +701,9 @@ html, body {
 // api endpoint
 .content .api-endpoint {
 	box-sizing: border-box;
-	display: block;
-	margin-right: $examples-width;
+	display: inline-block;
+	width: $content-width;
+	max-width: 100%;
 	padding: 0 $main-padding;
 
 	.endpoint-data {
