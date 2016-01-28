@@ -20,7 +20,7 @@ search: true
 
 Welcome to Imagify API! You can use the API to optimize and resize your images. 
 
-# API Liraries
+# API Libraries
 
 A few libraries are already available to interact with our API. If you write your own library, we would be very happy to link you on this doc. [Please contact us](mailto:contact@imagify.io).
 
