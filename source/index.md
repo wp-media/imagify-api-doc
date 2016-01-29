@@ -94,7 +94,7 @@ $param = array(
 	);
 $image = '1.jpg';	
 
-$imagify->Optimize($image, $param);
+$imagify->optimize($image, $param);
 ```
 
 ```python
