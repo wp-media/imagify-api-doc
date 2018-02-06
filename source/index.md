@@ -122,7 +122,8 @@ curl "https://app.imagify.io/api/upload/"
     "new_size": 100,
     "original_size": 200,
     "percent": 50,
-    "success": true
+    "success": true,
+    "is_converted": false
   }
 
 ```
@@ -161,5 +162,6 @@ resize | bool|false | Array with resize paramater
 resize["width"] |int| false | Will resize the image with the given width
 resize["height"] |int| false | Will resize the image with the given height
 resize["percentage"] |int| false | Will resize the image with the given percentage
+png_to_jpg |bool| false | Convert non-transparent PNG to JPG
 
 
